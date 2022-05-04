@@ -9,3 +9,11 @@ python generate_gif.py duration
 ```
 
 where `duration` is the duration of each frame in ms. (There are 45 frames)
+
+requires PIL. run
+
+```
+pip install Pillow
+```
+
+to install
