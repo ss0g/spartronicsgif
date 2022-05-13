@@ -4,7 +4,7 @@ from PIL import Image
 def generate_gif(duration):
     blue = Image.open("./high_quality_gif_files/background/blue.png")
     blue_rgba = blue.convert("RGBA")
-    helmet_and_words = Image.open("./high_quality_gif_files/background/helmet & words background.png")
+    helmet_and_words = Image.open("./high_quality_gif_files/background/helmet_and_words.png")
     helmet_and_words_rgba = helmet_and_words.convert("RGBA")
     blue_rgba.paste(helmet_and_words_rgba, (0, 0), helmet_and_words_rgba)
     bg = blue_rgba.copy()
