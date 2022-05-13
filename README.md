@@ -16,4 +16,6 @@ requires PIL. run
 pip install Pillow
 ```
 
-to install
+to install!
+
+Modify `generate_gif` to use different files -- change the file reference in line 5 or line 7; change filename in line 19 to make a differently named file.
