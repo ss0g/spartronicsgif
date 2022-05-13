@@ -2,7 +2,7 @@ from sys import argv
 from PIL import Image
 
 def generate_gif(duration):
-    blue = Image.open("./high_quality_gif_files/background/blue.png")
+    blue = Image.open("./high_quality_gif_files/background/blue_square.png")
     blue_rgba = blue.convert("RGBA")
     helmet_and_words = Image.open("./high_quality_gif_files/background/helmet_and_words.png")
     helmet_and_words_rgba = helmet_and_words.convert("RGBA")
